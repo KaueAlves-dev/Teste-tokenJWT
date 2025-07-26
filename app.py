@@ -15,4 +15,5 @@ jwt.init_app(app)
 app.register_blueprint(bluep)
 
 if __name__ == "__main__":
+  print('teste git revert')
   app.run(debug=True)
